@@ -1,0 +1,221 @@
+*  { font-family :"Verdana"; background-color: rgb(241, 238, 225); text-align: center;}
+
+
+.liens_navig {
+    background-color: black;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+#Logo {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 0.5px black;
+}
+
+table {
+    width: 100%;
+}
+
+
+#navigation{
+    height: min-content;
+}
+
+#premierecase {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(241, 238, 225)
+}
+
+.navig {
+    font-size: large;
+    color: white;
+    margin: 50px;
+    padding: 10px;
+    background-color: black;
+    border-top: none;
+}
+
+#Bienvenue, #Algo-texte,#Qui_sommes_nous-texte{
+    padding-top:50px;
+    width: 100%; 
+
+}
+
+.reseau {
+    background-color: transparent;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+footer {
+    position: fixed;
+    background: linear-gradient(rgb(123, 210, 240), lightblue);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+header {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+#Julien-texte, #Hugo-texte{
+    padding-bottom: 20px;
+}
+
+#Julien, #Hugo{
+height: 250px;
+}
+
+
+strong.Algo{
+    font-size: 0.5cm;
+}
+strong.Algo:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+#texte_animation_accueil {
+    padding-top: 5%;
+    font-size: 1.10em;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+
+
+#texte_animation_avis {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 80%;
+      
+    }
+  
+    to {
+      margin-left: 0%;
+    
+    }
+}
+
+
+form {
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    
+    
+}
+
+#selecteur {
+    margin: 15px;
+}
+
+#formulaire {
+    margin-left: auto;
+  margin-right: auto;
+    border: solid black;
+    padding: 15px;
+    width: 80%;
+    align-items: center;
+
+}
+
+#msg {
+   
+    height: 200%;
+    width: 70%;
+    text-align: left;
+    max-height: 200px;
+}
+
+#engrenage_accueil {
+    margin-top: 30px;
+    height: 200px;
+    animation-duration: 5s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+}
+
+.Engrenage {
+    height: 100px;
+    animation-duration: 5s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#Clique{
+    padding-top: 15%;
+}
+
+button {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color:lightslategray ;
+}
+
+.boites {
+    border-radius: 5px;
+    border-color: black;
+    box-shadow:lightslategray 1px 1px 1px;
+    padding:5px;
+    
+}
+
+.commentaires_écrits {
+    padding:10px;
+    font-family: cursive;
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+#dernier_commentaire{
+    padding:10px;
+    font-family: cursive;
+    animation-duration: 5s;
+    animation-name: slidein;
+}
